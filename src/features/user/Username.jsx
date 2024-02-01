@@ -5,9 +5,7 @@ function Username() {
 
   if (!userName) return null;
 
-  return (
-    <div className="hidden text-sm font-semibold md:block">{userName}</div>
-  );
+  return <div className=" text-sm font-semibold md:block">{userName}</div>;
 }
 
 export default Username;
